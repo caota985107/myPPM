@@ -16,11 +16,13 @@ pause
 echo/
 exit /b
 -->
-<Title>== FILE SELECTOR==</Title>
+<Title>--- PPM Viewer ---</Title>
 <body>
     <script language='javascript'>
-    function pipeFile() {
+window.resizeTo(500,250);
 
+    function pipeFile() {
+	 
          var file=document.getElementById('file').value;
          var fso= new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1);
          close(fso.Write(file));
@@ -28,5 +30,5 @@ exit /b
     }
     </script>
 <input type='file' name='file' size='30'>
-</input><hr><button onclick='pipeFile()'>Submit</button>
+</input><hr><button onclick='pipeFile()'>Read</button>
 </body>
