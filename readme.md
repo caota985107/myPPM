@@ -9,6 +9,7 @@
 
 [NetPBM Viewer (kylepaulsen.com)](https://www.kylepaulsen.com/stuff/NetpbmViewer/)
 
+也可以使用 ppm_viewer中的 open_ppm.bat來開啟ppm檔案
 #### cpp log
 
 ```c++
